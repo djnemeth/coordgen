@@ -1,0 +1,16 @@
+; Mandatory items
+
+[general]
+name=Coordinated Generalization
+email=djnemeth@outlook.com
+author=Dávid J. Németh, Zsuzsanna Ungvári
+qgisMinimumVersion=2.0
+description=Coordinated Generalization
+about=Coordinated Generalization.
+version=0.1.0
+tracker=https://github.com/djnemeth/coordgen
+repository=https://github.com/djnemeth/coordgen
+
+; Optional items
+
+experimental=True

@@ -1,1 +1,1 @@
-# coordinated-generalization
+# coordgen
