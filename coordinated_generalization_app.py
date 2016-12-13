@@ -19,7 +19,7 @@ class CoordinatedGeneralizationApp:
         self.action.setObjectName("coordGenAction")
         self.action.setWhatsThis("Coordinated Generalization")
 
-        QObject.connect(self.action, SIGNAL("triggered()"), self.run)
+        self.action.triggered.connect(self.run)
         self.iface.addPluginToRasterMenu("&Coordinated Generalization",
             self.action)
 
@@ -28,4 +28,6 @@ class CoordinatedGeneralizationApp:
             self.action)
 
     def run(self):
+        layers = self.iface.legendInterface().layers()
+        self.view.setLayers(layers)
         self.view.exec_()
