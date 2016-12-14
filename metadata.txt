@@ -3,7 +3,7 @@
 [general]
 name=Coordinated Generalization
 email=djnemeth@outlook.com
-author=Dávid J. Németh, Zsuzsanna Ungvári
+author=Zsuzsanna Ungvári, Dávid J. Németh
 qgisMinimumVersion=2.0
 description=Simplify rasterized digital surface models optionally considering river data
 about=This plugin lets the user simplify rasterized digital surface models using a modified image filtering algorithm. In contrast to other filtering methods, this solution aims at preserving characteristic features of the given terrain, such as steep mountain ridges or valleys. By optionally specifying a vector layer containing linear river data of the given surface, an additional correction process can also be applied to the output in order to guarantee that stream gradients of given rivers remain natural, even after the generalization.
